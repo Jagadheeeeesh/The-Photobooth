@@ -1,0 +1,58 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const donateBtn = document.getElementById('donateBtn');
+    const donationContainer = document.getElementById('donationContainer');
+    const mainHeader = document.getElementById('main-header');
+    const mainSection = document.getElementById('main-section');
+    const exitBtn = document.getElementById('exitBtn');
+
+    // const gcashBtn = document.getElementById('gcashBtn');
+    const paypalBtn = document.getElementById('paypalBtn');
+    
+
+
+    donateBtn.addEventListener('click', () => {
+        donationContainer.classList.add('show');
+        // Apply blur effect
+        mainHeader.style.backdropFilter = 'blur(100px)';
+        // mainSection.style.backdropFilter = 'blur(8px)';
+
+        // Optional: Lower opacity slightly for a better effect
+        mainHeader.style.opacity = '0.7';
+        // mainSection.style.opacity = '0.7';
+        
+    })
+
+    exitBtn.addEventListener('click', () => {
+        donationContainer.classList.remove('show');
+        // donationContainer.style.opacity = '0';
+        // donationContainer.style.visibility = 'hidden';
+    })
+
+    // gcashBtn.addEventListener('click', () => {
+    //     copyNumber()
+    // })
+
+    paypalBtn.addEventListener('click', () => {
+        copyPaypal()
+    })
+
+    // function copyNumber() {
+    //     const text = ""; // The text to be copied
+    //     navigator.clipboard.writeText(text)
+    //         .then(() => alert("Text copied!"))
+    //         .catch(err => console.error("Error copying text: ", err));
+    // }
+
+    function copyPaypal() {
+        const text = "https://www.paypal.me/judiemosinabre"; // The text to be copied
+        navigator.clipboard.writeText(text)
+            .then(() => alert("Text copied!"))
+            .catch(err => console.error("Error copying text: ", err));
+    }
+
+    // document.addEventListener('click', (e) => {
+    //     donationContainer.style.opacity = '0';
+    //     donationContainer.style.visibility = 'hidden';
+    // });
+
+})
