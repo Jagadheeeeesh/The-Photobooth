@@ -391,7 +391,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     sessionStorage.setItem('photoArray', JSON.stringify(storedImages)); 
                     console.log("All 3 images stored in sessionStorage!");
-                    window.location.href = 'Customize.html'; 
+                    window.location.href = 'customize.html'; 
                 }
             };
         });
