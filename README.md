@@ -33,9 +33,6 @@ To use the photobooth, open the `index.html` file in your web browser. Make sure
 
 We welcome contributions to The Photobooth project! If you have suggestions for improvements or new features, please submit an issue or pull request on GitHub.
 
-=======
-Take instant photobooth-style photos online! **The Photobooth** is a web-based app that allows users to capture, customize, and download high-quality photo strips instantly. Choose from over 100 frame colors, add stickers and frames, and personalize your photo booth experience from your browser — no installation needed.
-
 ## Features
 
 - **Instant Photo Capture:** Take photos directly from your device's camera.
@@ -47,7 +44,7 @@ Take instant photobooth-style photos online! **The Photobooth** is a web-based a
 
 ## Demo
 
-> (Add a link to your live site if available.)
+https://jagadheeeeesh.github.io/The-Photobooth/index.html
 
 ## Getting Started
 
@@ -91,5 +88,3 @@ Take instant photobooth-style photos online! **The Photobooth** is a web-based a
 4. Capture photos or upload existing images.
 5. Customize your strip with frames and stickers.
 6. Download your finished photo strip.
-
->>>>>>> 915c208af7d25fd6e9591b10a59bd6057abc650d
