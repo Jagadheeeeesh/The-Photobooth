@@ -942,20 +942,22 @@ document.addEventListener('DOMContentLoaded', function() {
                     { src: 'Files/lucky.png', x: stackedCanvas.width - 120, y: 730, size: 95}
                 ],
                 'confetti' : [
-                    { src: 'Files/star.png', x: 100, y: 20, size: 40},
-                    { src: 'Files/circle.png', x: stackedCanvas.width - 120, y: 45, size: 50},
-                    { src: 'Files/circle.png', x: 30, y: 150, size: 35},
-                    { src: 'Files/circle.png', x: stackedCanvas.width - 70, y: 180, size: 32},
-                    { src: 'Files/star.png', x: stackedCanvas.width - 100, y: 320, size: 40},
-                    { src: 'Files/star.png', x: 100, y: 450, size: 32},
-                    { src: 'Files/circle.png', x: stackedCanvas.width - 30, y: 530, size: 27},
-                    { src: 'Files/star.png', x: stackedCanvas.width - 70, y: 580, size: 27},
-                    { src: 'Files/star.png', x: 22, y: 690, size: 47},
-                    { src: 'Files/circle.png', x: stackedCanvas.width - 200, y: 800, size: 32},
-                    { src: 'Files/circle.png', x: stackedCanvas.width - 200, y: 800, size: 32},
-                    { src: 'Files/star.png', x: 100, y: 850, size: 49},
-                    { src: 'Files/circle.png', x: 22, y: 990, size: 30},
-                    { src: 'Files/star.png', x: stackedCanvas.width - 100, y: stackedCanvas.height - 200, size: 35}
+                    { src: 'Files/star5.png', x: 100, y: 20, size: 40},
+                    { src: 'Files/circle2.png', x: stackedCanvas.width - 120, y: 45, size: 50},
+                    { src: 'Files/circle1.png', x: 30, y: 150, size: 35},
+                    { src: 'Files/circle1.png', x: stackedCanvas.width - 70, y: 180, size: 32},
+                    { src: 'Files/star2.png', x: stackedCanvas.width - 100, y: 320, size: 40},
+
+
+                    { src: 'Files/star1.png', x: 100, y: 450, size: 32},
+                    { src: 'Files/circle2.png', x: stackedCanvas.width - 30, y: 530, size: 27},
+                    { src: 'Files/star4.png', x: stackedCanvas.width - 70, y: 580, size: 27},
+                    { src: 'Files/star3.png', x: 22, y: 690, size: 47},
+                    { src: 'Files/circle1.png', x: stackedCanvas.width - 200, y: 800, size: 32},
+                    { src: 'Files/circle1.png', x: stackedCanvas.width - 200, y: 800, size: 32},
+                    { src: 'Files/star2.png', x: 100, y: 850, size: 49},
+                    { src: 'Files/circle2.png', x: 22, y: 990, size: 30},
+                    { src: 'Files/star1.png', x: stackedCanvas.width - 100, y: stackedCanvas.height - 200, size: 35}
                 ],
                 'ribboncoquette' : [
                     { src: 'Files/ribboncq.png', x: 1, y: 0, size: 80},
