@@ -201,17 +201,6 @@ body {
     color: var(--text-pink);
 }
 
-#github-container {
-    background-color: #F5EBE0;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #preview-img6 {
     position: absolute;
     width: 170px;
